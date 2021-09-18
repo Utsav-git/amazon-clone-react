@@ -1,0 +1,72 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 100px;
+}
+.login_logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+.login_container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #bbbbc7;
+  width: 500px;
+}
+.login_container h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+}
+.login_container form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px 0;
+}
+.login_container label {
+  font-weight: 600;
+}
+.login_container input {
+  width: 98%;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #ebe6e6;
+}
+.login_button {
+  background: #f0c14b; /* Amazon bg color  */
+  border: 1px solid;
+  margin: 10px 5px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  padding: 10px 100px;
+  cursor: pointer;
+}
+.login .createAccount_button {
+  background: #b2c1c2;
+  border: 1px solid;
+  margin-top: 10px;
+  color: #111;
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.login_container small {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 10px 0;
+}
